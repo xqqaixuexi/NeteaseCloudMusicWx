@@ -1,1 +1,25 @@
 /* pages/component/login/login.wxss */
+.form-common{
+    padding: 60rpx;
+    margin-top: 50rpx;
+}
+.formc-cnt{
+    padding: 16rpx 0;
+    display: flex;
+    border-bottom: 1px solid #eee;
+    margin: 46rpx 0
+    }
+.formc-cnt input{
+    margin-left:30rpx;
+}
+.form-common button,.btnhover{
+    margin-top: 78rpx;
+    display: block;
+    background-color: #eb4e4e;
+    height: 2.4em;
+    padding: 0;
+    line-height: 2.4;
+    border-radius: 2.4em;
+    font-size: 32rpx;
+    color: white;
+    }

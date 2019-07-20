@@ -1,14 +1,43 @@
 {
-  "pages": [
-    "pages/index/index",
-    "pages/logs/logs",
-    "pages/component/login/login"
-  ],
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
-  },
-  "sitemapLocation": "sitemap.json"
+    "pages": [
+        "pages/component/login/login",
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/component/home/index",
+        "pages/component/me/index",
+        "pages/component/user/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#d43c33",
+        "navigationBarTitleText": "云音乐",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "color": "#aaa",
+        "selectedColor": "#fff",
+        "borderStyle": "black",
+        "backgroundColor": "#212121",
+        "list": [
+            {
+                "pagePath": "pages/component/home/index",
+                "iconPath": "image/cm2_btm_icn_discovery.png",
+                "selectedIconPath": "image/cm2_btm_icn_discovery_prs.png",
+                "text": "发现音乐"
+            },
+            {
+                "pagePath": "pages/component/me/index",
+                "iconPath": "image/cm2_btm_icn_music.png",
+                "selectedIconPath": "image/cm2_btm_icn_music_prs.png",
+                "text": "我的音乐"
+            },
+            {
+                "pagePath": "pages/component/user/index",
+                "iconPath": "image/cm2_btm_icn_account.png",
+                "selectedIconPath": "image/cm2_btm_icn_account_prs.png",
+                "text": "账号"               
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json"
 }
